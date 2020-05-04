@@ -1,3 +1,14 @@
 p {
   font-family: Lato;
 }
+
+.main-container {
+  width: 100%;
+  height: 100;
+  display: grid;
+}
+
+.header {
+  align-self: center;
+  justify-self: center;
+}

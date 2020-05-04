@@ -1,0 +1,23 @@
+.main-container {
+  height: 70vh;
+  width: 96vw;
+  background-color: grey;
+  border: 10px;
+  border-radius: 10%;
+  display: grid;
+}
+
+h3 {
+  justify-self: center;
+}
+
+.add-duck {
+  width: 100px;
+  height: 50px;
+}
+
+.delete-duck {
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+}
