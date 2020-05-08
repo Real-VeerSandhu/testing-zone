@@ -1,5 +1,5 @@
 .main-container {
-  height: 70vh;
+  height: 20vh;
   width: 96vw;
   background-color: grey;
   border: 10px;
@@ -11,13 +11,23 @@ h3 {
   justify-self: center;
 }
 
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .add-duck {
+  grid-column: 1;
   width: 100px;
   height: 50px;
+  justify-self: center;
+  align-self: center;
 }
 
 .delete-duck {
+  grid-column: 3;
   width: 100px;
   height: 50px;
-  justify-content: center;
+  justify-self: center;
+  align-self: center;
 }
